@@ -345,4 +345,26 @@ template {
 [hidden] {
   display: none;
 }
+
+.card {
+  background-color: whitesmoke;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card__picture {
+  width: 50%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.card__content {
+  width: 50%;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: green;
+}
 /*# sourceMappingURL=main.css.map */
