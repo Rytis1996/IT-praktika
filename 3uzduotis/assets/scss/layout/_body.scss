@@ -1,23 +1,17 @@
 .card {
 
     background-color: whitesmoke;
-    box-sizing: border-box;
-
+    
     &__picture {
-        
-        width: 50%;
+        width: 500px;
         display: inline-block;
-        box-sizing: border-box;
-        background-color: lightblue;
+       
     }
 
     &__content {
-       
-        width: 50%;
+        width: 500px;
         display: inline-block;
-        box-sizing: border-box;
-        background-color: green;
-    }
+       }
 
 
 }
