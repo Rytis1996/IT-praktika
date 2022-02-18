@@ -1,0 +1,101 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul > p {
+    display: inline;
+    background-color: rgb(74, 112, 18);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px 10px 5px 15px;
+    color: aliceblue;
+    font-weight: 700;
+    border: solid 1px black;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  th:first-child {
+    border-radius: 15px;
+  }
+  th:last-child {
+    border-radius: 15px;
+  }
+  .tableHead,
+  th {
+    color: white;
+    background-color: cornflowerblue;
+    border: solid black 1px;
+    border-bottom: solid rgb(33, 85, 87) 4px;
+  }
+  
+  table,
+  td {
+    border: solid black 1px;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(143, 209, 209);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(91, 212, 212);
+  }
+  
+  td {
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+  
+  .Button {
+    margin: 5px;
+  }
+  
+  div > input {
+    position: absolute;
+    left: 250px;
+  }
+  
+  div > span {
+    position: absolute;
+    left: 250px;
+  }
+  div > span:last-child {
+    position: absolute;
+    left: 300px;
+  }
+  
+  select {
+    position: absolute;
+    left: 250px;
+  }
+  
+  .Button {
+    background-color: green;
+    color: honeydew;
+    border: solid 1px white;
+    border-radius: 20%;
+    height: 27px;
+    width: 67px;
+    margin-left: 100px;
+  }
+  
+  fieldset {
+    width: 400px;
+    background-color: white;
+  }
+  
+  legend {
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    margin-bottom: 5px;
+  }

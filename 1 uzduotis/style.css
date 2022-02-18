@@ -1,0 +1,51 @@
+body {
+    background-color: gray;
+  }
+  
+  /* BAVIGACIJA */
+  
+  nav {
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  span {
+    border-right: solid 2px white;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav > div {
+    width: 900px;
+    margin: 20px auto;
+  }
+  
+  body > div {
+    width: 900px;
+    margin: 20px auto;
+    background-color: aliceblue;
+  }
+  
+  h1 {
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 25px;
+  }
+  /* dVIGUBA SEKCIJA */
+  
+  div > div:first-child {
+    width: 50%;
+    float: left;
+  }
+  
+  div > div {
+    margin-right: 20px;
+  }
