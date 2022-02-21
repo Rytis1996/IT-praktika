@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 0;
 }
@@ -38,6 +42,7 @@ input {
     padding: 10px 0;
     border: solid 1px;
     border-color: rgb(122, 122, 122, 0.3);
+    
 }
 
 button {
@@ -48,6 +53,7 @@ button {
     border: solid 2px rgb(134, 179, 67) ;
     border-radius: 3px;
     border-bottom: solid 2px rgb(77, 104, 36);
+    
 }
 
 h1, input, button {
