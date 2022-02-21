@@ -41,7 +41,7 @@ input {
 }
 
 button {
-    padding: 10px 0;
+    padding: 10px;
     font-size: 14px;
     background-color: rgb(134, 179, 67);
     color: white;
@@ -65,5 +65,5 @@ p {
     font-size: 14px;
     color: grey;
     opacity: 90%;
-    font-weight: 500;
+    font-weight: 400;
 }
