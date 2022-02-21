@@ -1,6 +1,5 @@
 body {
     font-size: 0;
-    font-family: 'roboto';
 }
 
 img {
@@ -24,7 +23,8 @@ h1, p, input, svg, button, textarea {
 
 h1 {
     font-size: 48px;
-    
+   font-family: 'roboto';
+   font-weight: 700 bold;
 }
 
 svg {
@@ -41,8 +41,6 @@ input {
 }
 
 button {
-    display: block;
-    width: 50%;
     padding: 10px 0;
     font-size: 14px;
     background-color: rgb(134, 179, 67);
