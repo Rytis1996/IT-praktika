@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 80%;
+    margin: 25px auto;
+    display: block;
+    position: relative;
+    font-size: 0;
+}
+
+div > div {
+    width: 20%;
+    display: inline-block;
+    margin: 2%;
+    line-height: 1.8;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+    opacity: 80%;
+}
+
+body > div:first-child {
+    text-align: left;
+}
+
+body:last-child {
+    text-align: center;
+}
+
+body:last-child i.material-icons {
+    color: lightgreen;
+    font-size: 64px;
+}
+
+body > div:first-child i.material-icons {
+    color: lightsalmon;
+    font-size: 48px;
+}
