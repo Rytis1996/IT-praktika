@@ -75,9 +75,6 @@ textarea {
 }
 
 .message {
-    /* height: 120px;   
-    overflow-y: hidden;
-    vertical-align: top; */
     border: black 1px solid;
     border-radius: 4px;
     margin: 10px;
@@ -86,4 +83,9 @@ textarea {
     width: 60%;
     background-color: white;
     color: rgba(0, 0, 0, 0.6);    
+}
+
+.message::placeholder {
+    columns: 20;
+    size: 120px;
 }
