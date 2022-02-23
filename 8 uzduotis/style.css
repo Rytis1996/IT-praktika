@@ -75,7 +75,15 @@ textarea {
 }
 
 .message {
-    height: 120px;   
+    /* height: 120px;   
     overflow-y: hidden;
-    vertical-align: top;
+    vertical-align: top; */
+    border: black 1px solid;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 60%;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);    
 }
